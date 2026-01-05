@@ -32,9 +32,9 @@ class Main {
     return weight / height / height;
   }
 
-  // isHealthyメソッドを定義してください
   public static boolean isHealthy(double bmi) {
     return bmi >= 18.5 && bmi < 25;
   }
   
 }
+
